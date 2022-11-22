@@ -12,11 +12,11 @@
 :root {
     --main-color: #54b689;
     --main-text-color: #fff;
+    --main-color-on-hover: #3a7e5f;
     --border-color: #999;
     --bio-bg-color: #1e2a3a;
     --bio-border-color: #293544;
     --about-bg-color: #111821;
-
 }
 
 /* General */
@@ -46,6 +46,7 @@
     min-height: 100vh;
     background-color: var(--about-bg-color);
     padding: 50px;
+    font-size: large;
 }
 
 /* Bio container*/
@@ -86,7 +87,11 @@
 
 #social-container li a {
     color: var(--main-color);
-    font-size: 30px;
+    font-size: 35px;
+}
+
+#social-container li a:hover {
+    color: var(--main-color-on-hover);
 }
 
 #email-container {
@@ -97,6 +102,7 @@
 #email-container ion-icon,
 #email-container a {
     flex: 1 1 0;
+    font-size: 18px;
 }
 
 #email-container a {
