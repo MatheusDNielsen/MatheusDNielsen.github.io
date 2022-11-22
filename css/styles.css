@@ -240,8 +240,8 @@
     }
 
     #btn-projects {
-        text-align: center;
-        margin: 20 pix auto;
+        text-align: end;
+        margin: 20px auto;
     }
 
     .skill-box {
