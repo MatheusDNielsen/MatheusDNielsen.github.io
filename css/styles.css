@@ -78,20 +78,24 @@
     border-bottom: 1px solid var(--border-color);
     margin-bottom: 25px;
     padding-bottom: 25px;
+    max-height: 60px;
 }
 
 #social-container li {
     flex: 1 1 0;
     max-width: 60px;
+    
 }
 
 #social-container li a {
     color: var(--main-color);
     font-size: 35px;
+    transition: .5s;
 }
 
 #social-container li a:hover {
     color: var(--main-color-on-hover);
+    font-size: 45px;
 }
 
 #email-container {
@@ -202,6 +206,26 @@
 .skill-box i {
     font-size: 45px;
     margin-right: 10px;
+    transition: .5s;
+}
+
+/* .skill-box i:hover {
+    font-size: 55px;
+} */
+
+/* Tablet */
+
+@media(max-width: 800px) {
+
+    .skill-box {
+        flex: 1 1 50%;
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .description {
+        max-width: 80%;
+    }
 }
 
 /* Mobile */
