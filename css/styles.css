@@ -226,6 +226,8 @@
     .description {
         max-width: 80%;
     }
+
+    
 }
 
 /* Mobile */
@@ -277,6 +279,10 @@
 
     .skill-box i {
         font-size: 60px;
+    }
+
+    #social-container li a:hover {
+        color: var(--main-color-on-hover);
     }
 }
 
