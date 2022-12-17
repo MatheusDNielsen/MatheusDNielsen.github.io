@@ -10,11 +10,10 @@
 
 /* Variables */
 :root {
-    --main-color: #54b689;
+    --main-color: #168aad;
     --main-text-color: #fff;
-    --main-color-on-hover: #3a7e5f;
     --border-color: #999;
-    --bio-bg-color: #1e2a3a;
+    --bio-bg-color: #030313;
     --bio-border-color: #293544;
     --about-bg-color: #111821;
 }
@@ -75,7 +74,7 @@
     display: flex;
     justify-content: center;
     list-style: none;
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--main-text-color);
     margin-bottom: 25px;
     padding-bottom: 25px;
 }
@@ -88,10 +87,6 @@
 #social-container li a {
     color: var(--main-color);
     font-size: 35px;
-}
-
-#social-container li a:hover {
-    color: var(--main-color-on-hover);
 }
 
 #email-container {
@@ -196,7 +191,7 @@
     margin-bottom: 25px;
     font-weight: bold;
     padding-left: 10px;
-    border-left: 5px solid var(--main-color);
+    border-left: 5px solid var(--main-text-color);
 }
 
 .skill-box i {
