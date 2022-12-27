@@ -200,6 +200,7 @@
     font-size: 45px;
     margin-right: 10px;
     transition: .5s;
+    color: var(--main-color);
 }
 
 /* .skill-box i:hover {
